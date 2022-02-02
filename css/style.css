@@ -31,7 +31,7 @@ li {
 }
 
 A:link { 
-    color: black; /* Цвет непосещенных ссылок */
+
     text-decoration: none;
 }
 
@@ -40,7 +40,7 @@ a:hover {
 }
 
 .conteiner{
-    width: 1170px;
+    max-width: 1170px;
     margin: auto;
     padding-left: 15px;
     padding-right: 15px;
@@ -48,21 +48,20 @@ a:hover {
 
 /* шапка профиля  */
 
-.header-height{
-    height: 80px;
+.header{
     padding-top: 24px;
+    padding-bottom: 25px;
 }
 
 
 .webstudio{
-    width: 145px;
-    height: 37px;
     color: black;
     padding-top: 34px;
     font-style: normal;
     font-weight: bold;
     font-size: 26px;
     line-height: 31px;
+    padding-right: 46px;
     /* identical to box height */
 
     letter-spacing: 0.03em;
@@ -70,18 +69,21 @@ a:hover {
 
 .web{
     color: #2196F3;
+    margin-left: auto;
 }
 
 .studio{
     color: black;
-    padding-left: 93px;
+    padding-left: 47px;
+    padding-right: 25px;
     width: 49px;
     height: 16px;
 }
 
 .portfolio{
     color: black;
-    padding-left: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
     font-style: normal;
     width: 76px;
     height: 16px;
@@ -89,7 +91,7 @@ a:hover {
 
 .contakt{
     color: black;
-    padding-left: 50px;
+    padding-left: 25px;
 }
 
 .mail{
@@ -120,37 +122,39 @@ a:hover {
     width: auto;
     margin: 0px;
     padding: 0px;
-    
+    text-align: center;
 }
 
 /* Эффективные решения для вашего бизнеса */
-
+.center{
+    padding-top: 200px;
+}
 .section-one-title{
-    padding-bottom: 30px;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
     line-height: 60px;
     /* or 136% */
 
-    text-align: center;
+
+    margin: auto;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    padding-top: 200px;
-    margin: 0;
 
     color: #FFFFFF;
 }
 
 /* кнопка заказать услугу */
+
+button{
+    border: 0px;
+}
 .btn-primary{
-    width: 200px;
-    height: 50px;
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     background: #2196F3;
-    margin-left: 600px;
+    padding: 10px 32px;
     color: #FFFFFF;
+    margin-top: 30px;
 }
 
 .btn{
