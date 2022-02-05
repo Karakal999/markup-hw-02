@@ -163,6 +163,12 @@ button{
     line-height: 30px;
 } 
 
+/* особенности  */
+
+.peculiarities{
+    background-color: darkgreen;
+}
+
 .pecu-one, .pecu-two,
 .pecu-three, .pecu-four{
     width: 270px;
@@ -171,7 +177,6 @@ button{
 
 .pecu-rep{
     padding-top: 94px;
-    padding-bottom: 94px;
 }
 
 .pecu-two, .pecu-three, .pecu-four{
@@ -207,6 +212,8 @@ button{
 /* чем мы занимаемся секция */
 .work{
     padding-bottom: 94px;
+    padding-top: 94px;
+    background-color: coral;
 }
 
 .title-work{
@@ -234,6 +241,7 @@ button{
     background: #F5F4FA;
     padding-bottom: 69px;
     padding-top: 69px;
+    background-color: blueviolet;
 
 }
 
@@ -242,8 +250,7 @@ button{
     line-height: 42px;
     text-align: center;
     letter-spacing: 0.03em;
-    padding-bottom: 25px;
-    padding-top: 25px;
+    padding-bottom: 50px;
 }
 
 .foto-foto{
@@ -282,8 +289,6 @@ button{
 
 .box-marg{
     width: 1170px;
-    padding-top: 25px;
-    padding-bottom: 25px;
 }
 
 .title-who{
